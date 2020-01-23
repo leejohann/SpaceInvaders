@@ -10,7 +10,8 @@ Python 3.7
 
 
 ## Visuals
-![Image of gameplay](https://github.com/leejohann/SpaceInvaders/Space Invaders - gameplay.png)
+![Image of gameplay](https://github.com/leejohann/SpaceInvaders/SpaceInvaders-gameplay.png)
+![Image of gameover](https://github.com/leejohann/SpaceInvaders/SpaceInvaders-GameOver.png)
 
 ## Resources
 .png files for spaceship, angry pacmen and bullet from flaticon.com
