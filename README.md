@@ -9,18 +9,18 @@ Don’t let them reach your spaceship!
 Python 3.7
 
 
-### Visuals
+## Visuals
 
 
-#### Resources
+## Resources
 .png files for spaceship, angry pacmen and bullet from flaticon.com
 .ttf file from dafont.com
 
 
-##### Notes
+## Notes
 These notes break down the sections of code needed for the program. Mostly for personal reference.
 
-Elements:
+### Elements:
   Player (Spaceship)
   Enemies (Angry Pacmen)
   Bullets
@@ -28,8 +28,8 @@ Elements:
   Scoreboard
   Game Over Screen
 
-Movements and generation:
-  Player
+### Movements and generation:
+  #### Player
     Starting Position - x-position: 370, y-position: 480
     To move the player with our left and right arrow key, we check for event types using Pygame
       - Key down + Left key ⇒ change x-position by -6
@@ -38,7 +38,7 @@ Movements and generation:
    Prevent player from moving off screen
       - If statement used to restrict movement between 0 and 736
   
-  Enemy
+  #### Enemy
     Starting position - Using the random package, randomise position in the area 0 < x < 752, 50 < y < 350
     Movement change 
       - Horizontal: If pacman x-position < 0, change = 5, if pacman x-position > 752, change = -5
@@ -48,7 +48,7 @@ Movements and generation:
       - Pacmen y-position = 2000 to move them all off screen
       - Display game over text
  
- Bullet
+ #### Bullet
   Starting position: Use the spaceship’s current x and y coordinates
   Firing bullet:
     - Check that bullet state = “ready”
