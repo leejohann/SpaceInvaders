@@ -35,7 +35,7 @@ These notes break down the sections of code needed for the program. Mostly for p
       - Key down + Left key ⇒ change x-position by -6
       - Key down + Right key ⇒ change x-position by 6
       - Key Up + Left Key OR Right key ⇒ stop moving the spaceship
-   Prevent player from moving off screen
+    Prevent player from moving off screen
       - If statement used to restrict movement between 0 and 736
   
   #### Enemy
@@ -49,16 +49,16 @@ These notes break down the sections of code needed for the program. Mostly for p
       - Display game over text
  
  #### Bullet
-  Starting position: Use the spaceship’s current x and y coordinates
-  Firing bullet:
-    - Check that bullet state = “ready”
-    - Event type: Key down + Space bar ⇒ fire bullet
-  Movement 
-    - x-change = 0, y-change = 15
-    - If bulley_y < 0 (off-screen), then bullet_y = 480 and bullet state = “ready”
-    - If bullet state = “fire”, fire bullet
-    - Ensure bullet’s x-position does not change with spaceship movement
-  Collision
-    - Calculate distance between bullet and a pacman, if distance < 27, has_collided function is true, else false.
-    - If has_collided = true, bullet_y = 480 and bullet state = “ready”, and score increases by 1.
-    - Another pacman is regenerated randomly according to specifications above
+    Starting position: Use the spaceship’s current x and y coordinates
+    Firing bullet:
+      - Check that bullet state = “ready”
+      - Event type: Key down + Space bar ⇒ fire bullet
+    Movement 
+      - x-change = 0, y-change = 15
+      - If bulley_y < 0 (off-screen), then bullet_y = 480 and bullet state = “ready”
+      - If bullet state = “fire”, fire bullet
+      - Ensure bullet’s x-position does not change with spaceship movement
+    Collision
+      - Calculate distance between bullet and a pacman, if distance < 27, has_collided function is true, else false.
+      - If has_collided = true, bullet_y = 480 and bullet state = “ready”, and score increases by 1.
+      - Another pacman is regenerated randomly according to specifications above
