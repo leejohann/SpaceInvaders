@@ -10,7 +10,7 @@ Python 3.7
 
 
 ## Visuals
-![Image of gameplay](github.com/leejohann/SpaceInvaders/SpaceInvaders-gameply.png)
+![Image of gameplay](github.com/leejohann/SpaceInvaders/SpaceInvaders-gameplay.png)
 ![Image of gameover](github.com/leejohann/SpaceInvaders/SpaceInvaders-GameOver.png)
 
 ## Resources
